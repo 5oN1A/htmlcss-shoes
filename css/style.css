@@ -7,6 +7,10 @@
 
 /*************MENU****************/
 
+header {
+    opacity: 100%;
+}
+
 nav li a {
     text-decoration: none;
     color: black;
@@ -29,3 +33,41 @@ nav ul {
     text-align: end;
 }
 
+.bg-red {
+background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+
+/*************SEZIONI****************/
+
+section {
+    height: 100vh;
+    position: relative;
+}
+
+section .contenitore {
+    width: 650px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+section .contenitore .spot {
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 50px;
+}
+
+section .contenitore img {
+    width: 100%;
+}
